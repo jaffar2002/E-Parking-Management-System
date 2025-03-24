@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Light Background */
+body {
+    background: linear-gradient(to right, #E3F2FD, #ffffff);
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar with Glass Effect */
+.navbar {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: #007BFF;
+}
+
+/* Active Link Highlight */
+.nav-link {
+    font-weight: 500;
+    color: #007BFF;
+}
+
+.nav-link:hover, .nav-link.active {
+    font-weight: bold;
+    color: #0056b3;
+}
+
+/* Card with Glassmorphism */
+.card {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(12px);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Form Label */
+.form-label {
+    font-weight: 600;
+    color: #007BFF;
+}
+
+/* Button Styling */
+.btn-primary {
+    background: linear-gradient(135deg, #67C6E3, #4A90E2);
+    color: white;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(74, 144, 226, 0.3);
+    border: none;
+}
+
+.btn-primary:hover {
+    transform: translateY(-3px);
+    background: linear-gradient(135deg, #4A90E2, #67C6E3);
+}
+
+/* Fade-in Animation */
+.fade-in {
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+    opacity: 0.8;
+    padding-top: 15px;
+}

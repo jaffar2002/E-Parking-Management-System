@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    background: linear-gradient(to right, #E3F2FD, #ffffff);
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: #007BFF;
+}
+
+.hero-section {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-content {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(12px);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.btn-custom {
+    background: linear-gradient(135deg, #67C6E3, #4A90E2);
+    color: white;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(74, 144, 226, 0.3);
+    border: none;
+}
+
+.btn-custom:hover {
+    transform: translateY(-3px);
+    background: linear-gradient(135deg, #4A90E2, #67C6E3);
+}
+.features {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.feature-box {
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.feature-icon {
+    font-size: 30px;
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+.footer {
+    background: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 50px;
+}

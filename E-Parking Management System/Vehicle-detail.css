@@ -1,0 +1,52 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #E3F2FD, #ffffff);
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #E3F2FD, #ffffff);
+}
+
+.navbar {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: #007BFF;
+}
+
+.nav-link {
+    font-weight: 500;
+    color: #007BFF;
+}
+
+.nav-link:hover, .nav-link.active {
+    font-weight: bold;
+    color: #0056b3;
+}
+.receipt-container {
+    display: none;
+    margin: 30px auto;
+    padding: 20px;
+    max-width: 400px;
+    border-radius: 0px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    background: linear-gradient(to bottom, #E3F2FD, #ffffff);
+    color: #333;
+    text-align: center;
+}
+.receipt-button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #4682B4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
